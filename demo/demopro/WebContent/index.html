@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login portal</title>
+    <script src="loginvalidate.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Register portal</h1>
+    </div>
+   <div class="main">
+    <form onSubmit="return validate()" action="login" method="Post">
+        Username: <input type="text" name="uname" id="uname"><br><br>
+        Password: <input type="password" name="upass" id="upass"><br>
+        <button class="btn" type="submit" >submit</button>
+    </form>
+   </div>
+   <div class="footer">
+       <p>copyright@santhosh.com</p>
+   </div>
+</body>
+</html>

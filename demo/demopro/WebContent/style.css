@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+  
+}
+.header{
+height: 50px;
+background-color: aqua;
+}
+.header h1{
+    padding-top: 8px;
+}
+.main{
+    margin-top: 100px;
+}
+.btn{
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 100px;
+    height: 50px;
+    background-color: aqua;
+}
+.footer p{
+    padding: 5px;
+}
